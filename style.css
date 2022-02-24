@@ -1,0 +1,140 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: var(--main-BG);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--card-BG);
+  height: 100vh;
+}
+
+.card {
+  width: 320px;
+  height: 520px;
+  background-color: var(--card-BG);
+  border-radius: 20px;
+  padding: 0 32px;
+}
+
+.mainImgSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.mainImgSection > img {
+  width: 260px;
+  border-radius: 8px;
+}
+
+.cyanBox {
+  width: 260px;
+  height: 260px;
+  background-color: var(--cyan);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.cyanBox:hover {
+  opacity: 0.7;
+}
+.headingSection {
+  padding: 30px 0px;
+  color: var(--white);
+}
+.headingSection > p {
+  font-size: 16px;
+  color: var(--soft-blue);
+  margin-top: 10px;
+}
+.headingSection > h3:hover {
+  color: var(--cyan);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.logoSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box1,
+.box2 {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+}
+.box1 > p {
+  color: var(--cyan);
+}
+.box2 > p {
+  color: var(--soft-blue);
+}
+hr {
+  border: none;
+  background-color: var(--soft-blue);
+  height: 1px;
+  margin-top: 15px;
+}
+
+.lastSection {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  font-size: 15px;
+  color: var(--soft-blue);
+  margin-top: 20px;
+  gap: 15px;
+}
+.lastSection > p > span {
+  color: var(--white);
+}
+
+.lastSection > p > span:hover {
+  color: var(--cyan);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.lastSection > img {
+  width: 30px;
+  border: 1px solid var(--white);
+  border-radius: 50px;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  color: var(--white);
+}
+
+.attribution a {
+  color: var(--cyan);
+}
