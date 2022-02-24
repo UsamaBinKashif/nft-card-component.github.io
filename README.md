@@ -19,21 +19,23 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [#](https://your-solution-url.com)
+- Live Site URL: [#](https://your-live-site-url.com)
 
 ### Built with
 
 - HTML5
 - CSS3
+- CSS Positioning
 - Flexbox
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Today I learned about CSS Positioning in this project it was bit difficult but this project
+helped me alot.
 
 ## Author
 
 - Website - [Usama Bin Kashif](https://github.com/UsamaBinKashif)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/UsamaBinKashif)
-- Twitter - [@yourusername](https://twitter.com/UsamaBinKashif)
+- Frontend Mentor - [@usamabinkashif](https://www.frontendmentor.io/profile/UsamaBinKashif)
+- Twitter - [@usamabinkashif](https://twitter.com/UsamaBinKashif)
