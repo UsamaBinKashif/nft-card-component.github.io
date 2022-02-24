@@ -20,6 +20,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
  [Solution URL](https://github.com/UsamaBinKashif/nft-cardcomponent.github.io)
+ </br>
  [Live Site URL](https://usamabinkashif.github.io/nft-cardcomponent.github.io/)
 
 ### Built with
