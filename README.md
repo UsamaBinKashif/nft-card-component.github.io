@@ -15,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](images./screenshot.png)
+![screenshot](https://github.com/UsamaBinKashif/nft-card-component.github.io/blob/main/images/screenshot.PNG)
 
 ### Links
 
